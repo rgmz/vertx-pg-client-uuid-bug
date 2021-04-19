@@ -1,0 +1,13 @@
+= Uuid-reproducer
+
+== Building
+
+Start PostgreSQL:
+```sh
+$ docker-compose up -d
+```
+
+To run your application:
+```
+./mvnw clean compile vertx:run
+```
